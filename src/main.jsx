@@ -7,7 +7,6 @@ import {
   RouterProvider,
   Routes,
 } from "react-router-dom";
-import './index.css';
 import App from './App';
 import Login from './pages/login/Login';
 import Home from './pages/home/Home';
