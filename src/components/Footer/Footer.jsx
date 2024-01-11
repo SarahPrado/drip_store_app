@@ -3,13 +3,14 @@ import { Row, Col, Nav, Container } from 'react-bootstrap';
 
 const Footer = () => {
   return (
-      <footer className="py-5 my-5 border-top">
+    <div className="d-flex flex-column min-vh-100">
+      <footer className="mt-auto py-5 my-5 border-top border-bottom">
         <Row className="row-cols-1 row-cols-sm-2 row-cols-md-5">
           <Col mb={3}>
             <a href="/" className="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
               <svg className="bi me-2" width="40" height="32"><use xlinkHref="#bootstrap"></use></svg>
             </a>
-            <p className="text-body-secondary">© 2023</p>
+            <p className="text-body-secondary">LOGO DIGITAL COLLEGE AQUI © 2023</p>
           </Col>
           <Col mb={3}></Col>
           <Col mb={3}>
@@ -44,6 +45,7 @@ const Footer = () => {
           </Col>
         </Row>
       </footer>
+    </div>
   );
 }
 
