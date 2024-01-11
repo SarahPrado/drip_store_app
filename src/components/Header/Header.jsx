@@ -5,6 +5,7 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import Menu from '../Menu/Menu';
 
 const Header = () => {
   return (
@@ -28,7 +29,10 @@ const Header = () => {
           </Nav>
         </Container>
       </Navbar>
+
+      <Menu />
   </div>
+  
   )
 }
 
