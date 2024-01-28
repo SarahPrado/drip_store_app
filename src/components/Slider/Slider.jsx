@@ -13,37 +13,36 @@ export const Slider = () => {
   return (
     <div >
       <Carousel activeIndex={index} onSelect={handleSelect}>
-        <Carousel.Item>
-          <ExampleCarouselImage text="First slide" />
-          <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
+        <Carousel.Item className="d-flex align-items-center justify-content-center">
+          <div>
+              <p>Melhores ofertas personalizadas</p>
+              <h3>Queima de stoque Nike 🔥</h3>
+              <p>Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.</p>
+          </div>
+          <div>
+            <img src="src/assets/imgs/White-Sneakers-PNG-Clipart 1.png" alt="Tenis branco" />
+          </div>
         </Carousel.Item>
-        <Carousel.Item>
-          <ExampleCarouselImage text="Second slide" />
-          <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
+        <Carousel.Item className="d-flex align-items-center justify-content-center">
+          <div>
+              <p>Melhores ofertas personalizadas</p>
+              <h3>Queima de stoque Nike 🔥</h3>
+              <p>Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.</p>
+          </div>
+          <div>
+            <img src="src/assets/imgs/White-Sneakers-PNG-Clipart 1.png" alt="Tenis branco" />
+          </div>
         </Carousel.Item>
-        <Carousel.Item>
-          <ExampleCarouselImage text="Third slide" />
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <ExampleCarouselImage text="Fourth slide" />
-          <Carousel.Caption>
-            <h3>Fourth slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-          </Carousel.Caption>
+        <Carousel.Item className="d-flex align-items-center justify-content-center">
+          <div>
+              <p>Melhores ofertas personalizadas</p>
+              <h3>Queima de stoque Nike 🔥</h3>
+              <p>Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.</p>
+              <link rel="stylesheet" href="" />
+          </div>
+          <div>
+            <img src="src/assets/imgs/White-Sneakers-PNG-Clipart 1.png" alt="Tenis branco" />
+          </div>
         </Carousel.Item>
       </Carousel>
     </div>

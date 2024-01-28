@@ -1,6 +1,8 @@
 .carousel.slide .carousel-indicators button{
-    width: 3px;
-    height: 3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #C92071;
 }
 
 .carousel.slide .carousel-control-prev-icon {
@@ -8,4 +10,17 @@
 }
 .carousel.slide .carousel-control-next-icon {
     display: none;
+}
+
+.carousel.slide img{
+    width: 500px;
+    height: 500px;
+}
+
+.carousel-caption{
+    display: flex;
+}
+
+.carousel.slide link {
+    background-color: #C92071;
 }
